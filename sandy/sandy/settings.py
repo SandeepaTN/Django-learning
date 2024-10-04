@@ -77,9 +77,9 @@ WSGI_APPLICATION = "sandy.wsgi.application"
 DATABASES = {
     "default": {
         "ENGINE": "django.db.backends.postgresql",
-        "NAME": "sandy",
+        "NAME": "",
         "USER":'postgres',
-        "PASSWORD":'1234',
+        "PASSWORD":'',
         "HOST":"LOCALHOST"
 
     }
